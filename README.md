@@ -39,6 +39,26 @@ npm start
 
 ---
 
+healthcare_dashboard/
+│
+├── backend/               # Django Backend
+│   ├── api/               # App containing models, views, urls
+│   ├── db.sqlite3
+│   └── manage.py
+│
+├── frontend/              # React Frontend
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+
+
+
 ## 🧩 Step 3 — Add and push again
 
 Now run:

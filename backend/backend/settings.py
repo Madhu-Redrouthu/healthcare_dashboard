@@ -146,7 +146,8 @@ CORS_ALLOWED_ORIGINS = [
 ALLOWED_HOSTS = [
     '127.0.0.1', 
     'localhost',  
-    '.render.com', 'your-render-app-name.onrender.com', 'localhost', '127.0.0.1'
+    '.onrender.com', 
+    'healthcare-dashboard-1hym.onrender.com'
 ]
 
 CORS_ALLOWED_CREDENTIALS = True

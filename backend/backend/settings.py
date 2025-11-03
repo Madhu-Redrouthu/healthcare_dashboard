@@ -146,5 +146,22 @@ CORS_ALLOWED_ORIGINS = [
 ALLOWED_HOSTS = [
     '127.0.0.1', 
     'localhost',  
+    '.render.com', 'your-render-app-name.onrender.com', 'localhost', '127.0.0.1'
 ]
+
 CORS_ALLOWED_CREDENTIALS = True
+
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'
+
+# 👇 Add this line for Render
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# If using media uploads later, you can also add:
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

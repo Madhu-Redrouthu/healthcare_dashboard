@@ -19,6 +19,7 @@ This is a **full-stack healthcare management dashboard** for hospitals like **Na
 
 ---
 
+
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Backend Setup
@@ -33,6 +34,26 @@ python manage.py runserver
 cd frontend
 npm install
 npm start
+
+
+---
+
+healthcare_dashboard/
+│
+├── backend/               # Django Backend
+│   ├── api/               # App containing models, views, urls
+│   ├── db.sqlite3
+│   └── manage.py
+│
+├── frontend/              # React Frontend
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 
 ---

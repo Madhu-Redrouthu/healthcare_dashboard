@@ -1,0 +1,29 @@
+/* src/components/PatientList.css */
+
+.patient-container {
+    padding: 20px;
+    margin-top: 30px; /* Separator from other components */
+}
+
+.patient-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.patient-table th, .patient-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.patient-table th {
+    background-color: #e6f7ff; /* Light blue header */
+    font-weight: bold;
+    color: #333;
+}
+
+.patient-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

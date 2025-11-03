@@ -1,0 +1,68 @@
+
+/* ===== General Reset & Font ===== */
+body {
+  font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+  color: #1e293b;
+  scroll-behavior: smooth;
+}
+
+/* ===== Scrollbar Styling ===== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* ===== Card Hover Effects ===== */
+.card {
+  transition: all 0.25s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Header Animation ===== */
+header h1 {
+  animation: fadeInDown 0.8s ease;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Section Titles ===== */
+h2 {
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+/* ===== Footer ===== */
+footer {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+footer:hover {
+  opacity: 1;
+}

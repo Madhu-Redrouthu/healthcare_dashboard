@@ -1,0 +1,52 @@
+/* src/components/AppointmentList.css */
+
+.appointment-container {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #007bff; /* Blue heading */
+}
+
+.appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.appointment-table th, .appointment-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.appointment-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* --- Status Badge Styling --- */
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: white; 
+    display: inline-block;
+}
+
+/* Status Colors */
+.status-approved {
+    background-color: #28a745; /* Green */
+}
+
+.status-pending {
+    background-color: #ffc107; /* Yellow/Amber */
+    color: #333; /* Dark text for visibility on yellow */
+}
+
+.status-rejected {
+    background-color: #dc3545; /* Red */
+}

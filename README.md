@@ -36,8 +36,8 @@ npm install
 npm start
 
 
-
 ---
+
 Folder Structure
 
 healthcare_dashboard/
@@ -57,7 +57,7 @@ healthcare_dashboard/
 ├── README.md
 └── requirements.txt
 
-
+---
 
 
 ## 🧩 Step 3 — Add and push again

@@ -38,6 +38,7 @@ npm start
 
 
 ---
+Folder Structure
 
 healthcare_dashboard/
 │

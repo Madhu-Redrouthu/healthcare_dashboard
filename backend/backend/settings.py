@@ -1,4 +1,4 @@
-#  Allow frontend domain
+# Allow frontend domain
 CORS_ALLOWED_ORIGINS = [
     "https://naga-madhu-hospital-dashboard.netlify.app",
 ]
@@ -12,9 +12,10 @@ CSRF_TRUSTED_ORIGINS = [
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "ROOT_URLCONF = backend.urls"
     "healthcare-dashboard-1hym.onrender.com",
 ]
+
+# Django REST Framework configuration
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',

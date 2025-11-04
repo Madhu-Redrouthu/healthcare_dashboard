@@ -12,5 +12,6 @@ CSRF_TRUSTED_ORIGINS = [
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
+    "ROOT_URLCONF = backend.urls"
     "healthcare-dashboard-1hym.onrender.com",
 ]

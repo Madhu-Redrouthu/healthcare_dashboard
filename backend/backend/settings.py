@@ -15,3 +15,8 @@ ALLOWED_HOSTS = [
     "ROOT_URLCONF = backend.urls"
     "healthcare-dashboard-1hym.onrender.com",
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ]
+}

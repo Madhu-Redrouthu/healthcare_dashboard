@@ -128,4 +128,4 @@ class Command(BaseCommand):
         Appointment.objects.bulk_create(appointments)
         self.stdout.write(self.style.SUCCESS(f"Generated {len(appointments)} Appointments (10 of each status)."))
 
-        self.stdout.write(self.style.SUCCESS("✅ Successfully seeded rich data for Naga Madhu's Hospital"))
+        self.stdout.write(self.style.SUCCESS("✅ Successfully seeded rich data for Naga Madhu Multi-Speciality Hospital"))

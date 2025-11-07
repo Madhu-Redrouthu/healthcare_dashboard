@@ -12,8 +12,8 @@ class Doctor(models.Model):
     hospital = models.ForeignKey(Hospital, on_delete=models.CASCADE, related_name='doctors')
     name = models.CharField(max_length=200)
     designation = models.CharField(max_length=200, blank=True)
-    timings = models.CharField(max_length=200, blank=True)  # e.g. "9:00-13:00, 15:00-18:00"
-    days = models.CharField(max_length=200, blank=True)     # e.g. "Mon-Fri"
+    timings = models.CharField(max_length=200, blank=True)
+    days = models.CharField(max_length=200, blank=True)    
 
     def __str__(self):
         return f"{self.name} ({self.designation})"

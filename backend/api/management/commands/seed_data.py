@@ -10,7 +10,7 @@ from faker import Faker
 fake = Faker('en_IN') 
 
 class Command(BaseCommand):
-    help = 'Seed initial data for Naga Madhu's Hospital'
+    help = 'Seed initial data for Naga Madhu Multi-Speciality Hospital'
 
     def handle(self, *args, **kwargs):
         self.stdout.write("Seeding data...")

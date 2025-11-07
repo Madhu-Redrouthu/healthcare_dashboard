@@ -1,11 +1,11 @@
 # Allow frontend domain
 CORS_ALLOWED_ORIGINS = [
-    "https://naga-madhu-hospital-dashboard.netlify.app",
+    "https://Naga Madhu Multi-Speciality Hospital.netlify.app",          
 ]
 
 # Allow CSRF from frontend
 CSRF_TRUSTED_ORIGINS = [
-    "https://naga-madhu-hospital-dashboard.netlify.app",
+    "https://Naga Madhu Multi-Speciality Hospital.netlify.app",
 ]
 
 # Your backend host

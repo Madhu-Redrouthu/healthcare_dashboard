@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 # The function MUST be defined here with the correct name: home_view
 def home_view(request):
-    return HttpResponse("<h1>Welcome to Naga Madhu Multi-Speciality Hospital</h1><p>API is available at /api/</p>")
+    return HttpResponse("<h1>Naga Madhu Multi-Speciality Hospital</h1><p>API is available at /api/</p>")
 
 # Add any other viewset imports you might have for DRF here, e.g.:
 # from rest_framework import viewsets
